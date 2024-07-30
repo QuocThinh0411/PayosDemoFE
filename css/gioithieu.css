@@ -1,0 +1,24 @@
+.page-gt {
+	width: 80%;
+	margin: 50px 0 150px 100px;
+	text-align: center;
+	justify-self: center;
+}
+
+.page-header {
+	height: 40px;
+	background: pink;
+	line-height: 40px;
+	padding-left: 10px;
+}
+
+.page-info {
+	font-size: 15px;
+	margin-top: 20px;
+}
+.page-gt img {
+    max-width: 100%; /* Đảm bảo hình ảnh không vượt quá kích thước của thẻ cha */
+    height: auto; /* Giữ nguyên tỉ lệ của hình ảnh */
+    max-height: 300px; /* Giới hạn chiều cao tối đa */
+	margin: 20px;
+}
